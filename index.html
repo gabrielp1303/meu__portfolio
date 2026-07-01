@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container navbar">
+            <h1>Portfolio</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#sobre">Sobre Mim</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#jogo">Jogo</a></li>
+                </ul>
+            </nav>
+            <button id="btn-tema" class="btn-theme"> Alternar Tema</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="sobre" class="card apresentacao-flex">
+            <img src="foto.jpg.png" alt="Foto de perfil genérica" class="profile-img">
+            <div>
+                <h2 id="saudacao">Olá!</h2>
+                <p>Meu nome é Gabriel Eduardo Pinheiro Silva, sou estudante do ensino médio e faço um curso de TI integrado ao ensino. Estou sempre buscando aprender coisas novas e desvendar como o mundo digital funciona, comecei minha jornada no Clube da Programação para transformar minha curiosidade em habilidades práticas e construir minhas próprias criações na web.</p>
+
+<p>Acredito que a programação é uma ferramenta poderosa para resolver problemas e inovar. Meu objetivo é me tornar um desenvolvedor web completo, contribuindo para projetos impactantes e acessíveis a todos.</p>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <h2>Projetos e Interesses</h2>
+            <div class="grid-projetos">
+                <article class="card">
+                    <h3>Desenvolvimento Web</h3>
+                    <ul>
+                        <li>Calculadora Interativa</a></li>
+                        <li>Portfólio Pessoal</a></li>
+                        <li>Jogo de xadrez em Python</a></li>
+                        <li>Site de Receitas</a></li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h3>Tecnologias em Aprendizagem</h3>
+                    <ul>
+                        <li>Inteligência Artificial</li>
+                        <li>Desenvolvimento Web (Front-end e Back-end)</li>
+                        <li>Jogos Digitais e Criação de Conteúdo</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section id="jogo" class="card">
+            <h2>Jogo de Adivinhação</h2>
+            <p id="mensagem-jogo">Tente adivinhar o número (1 a 10):</p>
+            <div class="input-area">
+                <input type="number" id="campo-palpite" min="1" max="10" placeholder="Seu número">
+                <button id="btn-palpite">Tentar</button>
+                <button id="btn-reiniciar" class="secondary-btn">Reiniciar</button>
+            </div>
+            <p id="tentativas-restantes">Tentativas: 3</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Gabriel Eduardo Pinheiro Silva</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
